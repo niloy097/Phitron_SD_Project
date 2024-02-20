@@ -1,0 +1,9 @@
+.hex
+{
+    color : #f80505;
+    /*
+        fomate is:
+        * #rrggbb  --> rr -> red, gg -> green, bb -> blue
+        * the values is in hexadecimal 00 to ff(dec 0 to 255)
+    */
+}

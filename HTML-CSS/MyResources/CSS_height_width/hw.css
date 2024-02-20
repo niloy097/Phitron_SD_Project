@@ -1,0 +1,21 @@
+.outer_cont
+{
+    height: 50px;
+    width: 100%;
+    background-color: red;
+}
+
+.parent
+{
+    height: 50vh;
+    width: 40%;
+    background-color: red;
+}
+
+.child
+{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(30, 0, 128);
+    margin: auto;
+}

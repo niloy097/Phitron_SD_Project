@@ -1,0 +1,176 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar_container{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: #0f7a76;
+    /* gap: 300px; */
+}
+.special
+{
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    padding-top: 20px;
+}
+.logo
+{
+    width: 100px;
+}
+
+.menue_container
+{
+    height: 70px;
+    width: 500px;
+    display: flex;
+    list-style: none;
+    gap: 90px;
+    font-size: 22px;
+    color: white;
+    align-items: center;
+    margin-left: 400px;
+}
+
+.banner_img
+{
+    width: 80%;
+}
+
+.banner_container
+{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-left: 200px;
+    height: 100vh;
+    align-items: center;
+    /* background-color: gray; */
+    text-align: center;
+}
+
+.title
+{
+    font-size: 76px;
+    font-weight: bold;
+    color: #00cb9a;
+    text-align: center;
+}
+
+.description
+{
+    font-size: 22px;
+}
+
+button
+{
+    padding: 15px 25px;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+.app_btn
+{
+    background-color: aqua;
+}
+
+.doc_btn
+{
+    background-color: #00cb9a;
+}
+
+.service_card
+{
+    width: 300px;
+    height: 350px;
+    box-shadow: 8px 8px 16px gray;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+.service_img
+{
+    width: 150px;
+}
+.cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.input_box
+{
+    padding: 15px 30px;
+    margin: 10px;
+}
+.contact_container
+{
+    text-align: center;
+}
+
+.text_area
+{
+    padding:  35px 50px;
+}
+
+.submit_btn
+{
+    padding: 10px 20px;
+    width: 18%;
+    margin-top: 20px;
+    background-color: #00cb9a;
+    color: white;
+    font-size: 22px;
+    border: none;
+}
+
+.links
+{
+    height: 300px;
+    width: 300px;
+    line-height: 50px;
+}
+
+.message
+{
+    height: 100px;
+    width: 200px;
+    text-align: left;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0f7a76;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    
+    
+}
+.line_cpy
+{
+    background-color: #0f7a76;
+    color: white;
+    font-size: 15px;
+    margin-top: 1px;
+    text-align: center;
+}

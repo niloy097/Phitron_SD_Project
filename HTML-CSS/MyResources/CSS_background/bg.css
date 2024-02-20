@@ -1,0 +1,27 @@
+/* body {
+
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+} */
+/*short_way to do this*/
+/*bg-color -> bg-image -> bg-repeat -> bg-position*/
+
+body {
+    background: url(bg.jpg) no-repeat center fixed;
+}
+
+h1 {
+    background-color: green;
+    opacity: 1.0;
+}
+
+
+div {
+    background-color: red;
+}
+
+p {
+    background-color: none;
+}

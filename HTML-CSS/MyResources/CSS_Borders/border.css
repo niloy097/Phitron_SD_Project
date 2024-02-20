@@ -1,0 +1,31 @@
+.dotted
+{
+    border-style: dotted;
+    border-color:blue;
+}
+
+.dashed
+{
+    border-style: dashed;
+}
+
+.solid
+{
+    border-style: solid;
+    border-width: 1px 1px 1px 5px;
+    background-color: aqua;
+}
+
+
+.inset
+{
+    border-style: inset;
+}
+
+.mixed
+{
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+}

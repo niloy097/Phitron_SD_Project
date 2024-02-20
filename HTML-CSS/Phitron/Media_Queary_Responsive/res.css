@@ -1,0 +1,23 @@
+.title
+{
+    color: red;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 480px)
+{
+    .title
+    {
+        color: green;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    
+    .title
+    {
+        color: goldenrod;
+        font-size: 80px;
+    }
+}

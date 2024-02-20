@@ -1,0 +1,42 @@
+/* The CSS element Selector */
+
+/* p {
+    text-align: center;
+    color: red;
+} */
+/* The CSS id selector */
+/* #para1 {
+    text-align: center;
+    color: green;
+} */
+
+/* The CSS class selector */
+/* .center {
+    text-align: center;
+    color: red;
+} */
+
+/* specific selection */
+/* p.center
+{
+    text-align: left;
+    color:green;
+} */
+
+
+/* Multiclass controlling */
+/* .AB
+{
+    text-align: center;
+} */
+/* .Niloy
+{
+    color: red;
+} */
+
+
+/* Group Element CSS*/
+h1, h4, p {
+    text-align: center;
+    color: red;
+}

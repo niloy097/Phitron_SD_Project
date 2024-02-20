@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+/* body{
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+  
+} */
+
+.title {
+    color: #fbbc04;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    background: linear-gradient(to top, red, green);
+}
+
+.description {
+    color: chocolate;
+    line-height: 16em;
+}
+
+#unique {
+    color: brown;
+}
+
+.box{
+    font-size: 30px;
+    width: 300px;
+    height: 300px;
+    /* border: 5px dotted gray; */
+    padding: 30px;
+    margin: 100px;
+   background-color: aqua;
+   box-shadow: 4px 40px 80px blue;
+}
+
+.test
+{
+    padding: 50px;
+    background-color: green;
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+}
+
+.child
+{
+    padding: auto;
+    background-color: red;
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+}
+
+.x
+{
+    display: inline;
+}
+
+.y
+{
+    display: inline;
+}
+
+.box1{
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 30px;
+    height: 100vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bx1{
+    background-color: blue;
+    position: absolute;
+    /* z-index: -1; */
+}
+
+.bx2{
+    background-color: red;
+    position: relative;
+}
+
+.bx3{
+    background-color: green;
+}
+
+.green
+{
+    width: 450px;
+    background-color: green;
+    height: 250px;
+    margin: 50px;
+    position: absolute;
+}
+
+.red
+{
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    border-radius: 60px;
+    position: relative;
+    top: 32%;
+    left: 32%;
+}

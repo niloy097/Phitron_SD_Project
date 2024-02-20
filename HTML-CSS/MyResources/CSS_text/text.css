@@ -1,0 +1,39 @@
+body
+{
+    color: blue;
+}
+
+h1{
+    color: green
+}
+
+.justify
+{
+    padding: 10px;
+    width: 50vh;
+    height: 40vh;
+    text-align: justify;
+    border: 1px solid black;
+}
+
+.uppercase
+{
+    text-transform: uppercase;
+}
+
+.lowercase
+{
+    text-transform: lowercase;
+}
+
+.capitalize
+{
+    text-transform: capitalize;
+}
+
+
+.dist
+{
+    letter-spacing: 5px;
+    font-family: "Sofia", sans-serif;
+}
