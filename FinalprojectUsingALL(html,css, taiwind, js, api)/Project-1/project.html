@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="search-container flex justify-center gap-2 mt-20">
+        <input id = "ipt-field" type="text" placeholder="Search For Food" class="input input-bordered input-accent w-full max-w-xs" />
+        <button onclick="loadData()" class="btn btn-primary">Search</button>
+    </div>
+
+    <h1 class=" text-3xl text-center mt-3">Total Meals: <span id = "total-meals"> </span></h1>
+    <div id="meals-container">
+        
+    </div>
+    <!-- modalbutton -->
+
+    <!-- Open the modal using ID.showModal() method -->
+    <div class="modal-container">
+        <dialog id="my_modal_2" class="modal">
+        <div class="modal-box">
+            <h3 class="font-bold text-lg">Hello!</h3>
+            <p id = "details" class="py-4">Details Here</p>
+        </div>
+        <form method="dialog" class="modal-backdrop">
+            <button>close</button>
+        </form>
+        </dialog>
+    </div>
+
+    <!-- script starts here -->
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Exploring More Events on DOM</h1>
+
+    <button id = "btn-event">Events</button>
+    <input id = "text-field" type="text">
+    <script>
+        /*
+        
+        Events:
+        i. click 
+        ii. mouseenter
+        iii. mousemove
+        iv. focus
+        v. blur
+        vi. keydown
+        vii. keypress
+        viii. keyup (usable more)
+        */
+        //focus
+        /*document.getElementById('text-field').addEventListener('focus', function()
+        {
+            console.log("Text got from input filed");
+        })
+        //blur
+        document.getElementById('text-field').addEventListener('blur', function()
+        {
+            console.log("Text got from input filed but blur");
+        })*/
+        /*document.getElementById('text-field').addEventListener('keydown', function(e)
+        {
+            console.log(e.target.value);
+        })*/
+        /*document.getElementById('text-field').addEventListener('keypress', function(e)
+        {
+            console.log(e.target.value);
+        })*/
+
+        document.getElementById('text-field').addEventListener('keyup', function(e)
+        {
+            console.log(e.target.value);
+        })
+
+        document.getElementById('btn-event').addEventListener('mousemove', function()
+        {
+            console.log('Event Triggered');
+        })
+    </script>
+</body>
+</html>

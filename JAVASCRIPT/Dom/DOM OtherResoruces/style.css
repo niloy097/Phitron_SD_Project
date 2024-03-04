@@ -1,0 +1,34 @@
+body
+{
+    background-color: none;
+}
+
+h1
+{
+    color: tomato;
+}
+
+li
+{
+    color: tomato;
+}
+
+
+#mobile-title
+{
+    color: aqua;
+}
+
+.phone
+{
+    color: green;
+}
+
+.name-container li{
+    color: brown;
+}
+
+.text-center
+{
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Give right password</title>
+</head>
+<body>
+    <h1 id = "text-h1">Enter Right Passowrd to get a submit button</h1>
+    <input id = "ipt-filed" type="password" placeholder="Give passoword">
+    <button id = "remove-btn" disabled>Remove</button>
+
+    <script>
+
+        document.getElementById('ipt-filed').addEventListener('keyup', function(e)
+        {
+            text = e.target.value;
+
+            if(text === '2023Niloy')
+            {
+                getRemoveBtn.removeAttribute('disabled');
+            }
+            else
+            {
+                getRemoveBtn.setAttribute('disabled', true);
+            }
+        })
+
+        var getRemoveBtn = document.getElementById('remove-btn');
+        getRemoveBtn.addEventListener('click', function(event)
+        {
+            document.getElementById('text-h1').style.display = 'none';
+            document.getElementById('ipt-filed').value = '';
+        });
+    </script>
+</body>
+</html>

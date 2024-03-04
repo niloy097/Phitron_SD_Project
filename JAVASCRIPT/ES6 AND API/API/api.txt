@@ -1,0 +1,2 @@
+API --> Application Programming Interface
+    A way to communicate between Client and Server
